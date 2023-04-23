@@ -11,7 +11,7 @@ const Tab1: React.FC = () => {
           <IonTitle>Home</IonTitle>
         </IonToolbar>
       </IonHeader> */}
-      <IonContent className="ion-padding" >
+      <IonContent className="ion-padding">
         <h2>hi (name),</h2>
         <h5>you have NUM_CLASSES classes today.</h5>
         

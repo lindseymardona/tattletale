@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonImg} from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab4.css';
 
@@ -10,6 +10,7 @@ const Tab4: React.FC = () => {
           <IonTitle>Profile</IonTitle>
         </IonToolbar>
       </IonHeader>
+      <IonImg src = "../../img/eep.jpg" alt="A sleepy boy"></IonImg>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
