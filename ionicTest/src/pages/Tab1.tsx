@@ -18,8 +18,10 @@ const Tab1: React.FC = () => {
         
       <IonCard><div id="card1">
         <IonCardHeader>
-          <IonCardSubtitle>coming up</IonCardSubtitle>
-          <IonCardSubtitle>COM SCI M146</IonCardSubtitle>
+          <IonCardSubtitle><div id="cardtext"><i>coming up</i></div></IonCardSubtitle>
+          <IonCardSubtitle><div id="timeleft">00:54:38</div></IonCardSubtitle>
+          <IonCardSubtitle><div id="cardtext"><i>until</i></div></IonCardSubtitle>
+          <IonCardSubtitle><div id="classcode">COM SCI M146</div></IonCardSubtitle>
         </IonCardHeader>
 
         <IonCardContent>
