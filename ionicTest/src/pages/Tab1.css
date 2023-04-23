@@ -1,7 +1,19 @@
 #card1 {
     background: rgb(62,62,62);
+    /* display: flex; */
     background: linear-gradient(0deg, rgba(62,62,62,1) 0%, rgba(84,84,84,1) 100%);
   }
+
+#cardtext {
+    display: flex;
+}
+
+#container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+}
 
 #timeleft {
     font-size: 50px;
@@ -11,8 +23,27 @@
 #classcode {
     font-size: 30px;
     color: #4BCBFF;
+    padding-left: 5px;
 }
 
 #cardtext {
     color: #fdfdfd;
+}
+
+
+#pleaseHelp {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    height: 28px;
+}
+
+  
+#box {
+border: 1px solid black;
+height: 200px;
+width: 300px;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
 }
