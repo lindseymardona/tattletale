@@ -3,6 +3,7 @@ import React from 'react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
 import './fonts.css';
+import Tabxx from './Tabxx';
 
 const Tab1: React.FC = () => {
   return (
@@ -31,7 +32,9 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Home</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Home" />
+        {/* <ExploreContainer name="Home" /> */}
+        <Tabxx />
+        Hello World
       </IonContent>
     </IonPage>
   );
