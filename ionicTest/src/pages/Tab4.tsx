@@ -7,16 +7,16 @@ const Tab4: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Profile</IonTitle>
+          <IonTitle>Stats</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Profile</IonTitle>
+            <IonTitle size="large">Stats</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Profile" />
+        <ExploreContainer name="Statistics" />
       </IonContent>
     </IonPage>
   );
