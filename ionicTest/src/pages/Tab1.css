@@ -1,6 +1,8 @@
 #card1 {
+    /* background-color: #545454; */
     background: rgb(62,62,62);
     background: linear-gradient(0deg, rgba(62,62,62,1) 0%, rgba(84,84,84,1) 100%);
+    border-radius: 25px;
   }
 
 #timeleft {
@@ -14,5 +16,10 @@
 }
 
 #cardtext {
+    color: #fdfdfd;
+}
+
+#current {
+    font-size: 30px;
     color: #fdfdfd;
 }
