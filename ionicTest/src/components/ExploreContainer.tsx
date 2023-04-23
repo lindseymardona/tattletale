@@ -1,4 +1,5 @@
 import './ExploreContainer.css';
+import { IonImg } from '@ionic/react';
 
 interface ContainerProps {
   name: string;
