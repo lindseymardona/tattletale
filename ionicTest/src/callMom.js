@@ -10,6 +10,7 @@ import twilio from 'twilio';
 
 const accountSid = 'ACf96256bdca4de8a7af561200ebe8c592';
 const authToken = 'ae108942d91896247715fe6c4887f9ae';
+const response = '<Response><Say> Hello (momfriendname), you\'ve been unfortunately selected as (user)\'s source of accountability, and we\'re here to tell you that: Ooooooooh, (user) didn\'t go to school today!!</Say></Response>'
 //const client = require('twilio')(accountSid, authToken);
 const client = twilio(accountSid, authToken);
 
