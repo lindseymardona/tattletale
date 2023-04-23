@@ -2,6 +2,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardC
 import React from 'react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
+import './fonts.css';
 
 const Tab1: React.FC = () => {
   return (
@@ -13,12 +14,12 @@ const Tab1: React.FC = () => {
       </IonHeader> */}
       <IonContent className="ion-padding">
         <h2>hi (name),</h2>
-        <h5>you have NUM_CLASSES classes today.</h5>
+        <h5>you have (num_classes) classes today.</h5>
         
       <IonCard>
         <IonCardHeader>
-          <IonCardTitle>Card Title</IonCardTitle>
-          <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
+          <IonCardSubtitle>coming up</IonCardSubtitle>
+          <IonCardSubtitle>COM SCI M146</IonCardSubtitle>
         </IonCardHeader>
 
         <IonCardContent>

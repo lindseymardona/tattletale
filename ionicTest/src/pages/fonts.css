@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Varela Round';
+    src: url('path/to/varela-round.woff2') format('woff2'),
+         url('path/to/varela-round.woff') format('woff');
+    /* Add additional src URLs for other font formats as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  * {
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  h1 {
+    font-size: 36pt;
+  }
+  
+  h2 {
+    font-size: 30pt;
+  }
+  
+  h3 {
+    font-size: 24pt;
+  }
+  
+  h4 {
+    font-size: 20pt;
+  }
+  
+  body {
+    font-size: 16pt;
+  }
+  

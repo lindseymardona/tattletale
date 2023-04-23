@@ -1,3 +1,6 @@
+const googleFontsLink = <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
+import './pages/fonts.css';
+
 import { Redirect, Route } from 'react-router-dom';
 import {
   IonApp,
