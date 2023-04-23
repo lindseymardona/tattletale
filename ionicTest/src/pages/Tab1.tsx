@@ -17,7 +17,7 @@ const Tab1: React.FC = () => {
         <h2>hi (name),</h2>
         <h5>you have (num_classes) classes today.</h5>
         
-      <IonCard>
+      <IonCard><div id="card1">
         <IonCardHeader>
           <IonCardSubtitle>coming up</IonCardSubtitle>
           <IonCardSubtitle>COM SCI M146</IonCardSubtitle>
@@ -26,7 +26,7 @@ const Tab1: React.FC = () => {
         <IonCardContent>
           Here's a small text description for the card content. Nothing more, nothing less.
         </IonCardContent>
-      </IonCard>
+      </div></IonCard>
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Home</IonTitle>
